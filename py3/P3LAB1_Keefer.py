@@ -46,6 +46,5 @@ def push_open():
     print("A shadow figue grabs you, pulling you in")
     print("You have awoken in the basement")
 
-
 # start the program
 main()
