@@ -1,0 +1,90 @@
+:: StoryTitle
+Something not so spooky
+
+
+:: StoryData
+{
+  "ifid": "10388B75-8D7A-4353-BEFC-62584914E1EA",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Untitled Passage",
+  "zoom": 1
+}
+
+
+:: Back Door {"position":"550,250","size":"100,100"}
+You walk around to arrive at the back door. Having a big window you see a candlelight coming from upstairs.
+[[Try doorknob]]
+[[Check if window is unlocked]]
+
+
+:: Call Bobby {"position":"1025,250","size":"100,100"}
+
+
+
+:: Check if window is unlocked {"position":"700,450","size":"100,100"}
+
+
+
+:: Close it {"position":"300,375","size":"100,100"}
+You know better. Not today Satan.
+[[Go Home]]
+
+
+
+:: Front Door {"position":"225,225","size":"100,100"}
+The door is slightly open.
+[[Knock]]
+[[Close it]]
+
+
+
+:: Go Home {"position":"725,100","size":"100,100"}
+You arrive at your home, happy with your choice.
+[[Turn on TV]]
+[[Grab a drink]]
+<img src="https://raw.githubusercontent.com/RKCTI110/CTI110/refs/heads/main/_89277c97-c887-44be-a19d-b454aac23172.jpg" width= "500">
+
+
+:: Go back alone {"position":"875,375","size":"100,100"}
+
+
+
+:: Grab a drink {"position":"950,50","size":"100,100"}
+Congrats, you went to bed peacefully.
+
+
+:: Knock {"position":"75,350","size":"100,100"}
+A scream from help comes from inside.
+[[Rush inside]]
+[[Go Home]] 
+
+
+
+:: Rush inside {"position":"200,500","size":"100,100"}
+
+
+
+:: Try doorknob {"position":"500,450","size":"100,100"}
+The door is locked. 
+[[Check if window is unlocked]]
+[[Try picking lock]]
+
+
+:: Try picking lock {"position":"500,625","size":"100,100"}
+
+
+
+:: Turn on TV {"position":"875,250","size":"100,100"}
+You see a missing person news report last seen at the house you left. Feeling guilty you decide to go back.
+[[Go back alone]]
+[[Call Bobby]]
+
+
+
+:: Untitled Passage {"position":"450,75","size":"100,100"}
+Its All Hallows' Eve 👻 and your come upon the front door of a haunted house.
+[[Front Door]]
+[[Back Door]]
+[[Go Home]]
+
