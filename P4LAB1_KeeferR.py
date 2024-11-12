@@ -34,5 +34,24 @@ for side in range(9):
     t.fd(150)
     t.rt(45)
 
+t.pu()
+t.fd(250)
+t.pd()
+#triangle
+t.pensize(3)
+t.pencolor("blue")
+for side in range(3):
+    t.forward(100)
+    t.right(120)
+t.pu()
+t.fd(250)
+t.pd()
+
+#square
+t.pencolor("cadetblue4")
+for side in range (4):
+    t.forward(100)
+    t.left(90)
+    
 
 
