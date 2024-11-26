@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CharacTees - Unique Character T-Shirts</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Arial', sans-serif; }
+        nav a:hover { opacity: 0.7; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div id="app">
+        <nav class="bg-blue-600 text-white p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <h1 class="text-2xl font-bold">CharacTees</h1>
+                <div class="space-x-4">
+                    <a href="#home" class="hover:text-blue-200">Home</a>
+                    <a href="#products" class="hover:text-blue-200">Products</a>
+                    <a href="#request" class="hover:text-blue-200">Custom Request</a>
+                </div>
+            </div>
+        </nav>
+
+        <section id="home" class="container mx-auto mt-8 px-4">
+            <div class="text-center">
+                <h2 class="text-4xl font-bold mb-4">Welcome to CharacTees!</h2>
+                <p class="text-xl text-gray-600 mb-6">
+                    Unique t-shirts featuring your favorite characters and custom designs.
+                </p>
+                <div class="grid md:grid-cols-3 gap-4">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-2xl font-semibold mb-3">Unique Designs</h3>
+                        <p>Hand-crafted t-shirts with original character artwork.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-2xl font-semibold mb-3">Quality Prints</h3>
+                        <p>High-quality screen printing that lasts wash after wash.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-2xl font-semibold mb-3">Custom Options</h3>
+                        <p>Request your own custom character design!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="container mx-auto mt-12 px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Our T-Shirt Collection</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="/api/placeholder/300/400" alt="T-Shirt 1" class="mx-auto mb-4">
+                    <h3 class="text-xl font-semibold">Superhero Squad</h3>
+                    <p class="text-gray-600 mb-4">Classic superhero designs</p>
+                    <p class="font-bold text-blue-600">$24.99</p>
+                    <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="/api/placeholder/300/400" alt="T-Shirt 2" class="mx-auto mb-4">
+                    <h3 class="text-xl font-semibold">Anime Heroes</h3>
+                    <p class="text-gray-600 mb-4">Popular anime character shirts</p>
+                    <p class="font-bold text-blue-600">$26.99</p>
+                    <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="/api/placeholder/300/400" alt="T-Shirt 3" class="mx-auto mb-4">
+                    <h3 class="text-xl font-semibold">Cartoon Classics</h3>
+                    <p class="text-gray-600 mb-4">Nostalgic cartoon tees</p>
+                    <p class="font-bold text-blue-600">$22.99</p>
+                    <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="request" class="container mx-auto mt-12 px-4">
+            <div class="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md">
+                <h2 class="text-3xl font-bold text-center mb-6">Custom Character Request</h2>
+                <form>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 mb-2">Name</label>
+                        <input type="text" class="w-full px-3 py-2 border rounded" placeholder="Your Name">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 mb-2">Email</label>
+                        <input type="email" class="w-full px-3 py-2 border rounded" placeholder="Your Email">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 mb-2">Character Description</label>
+                        <textarea class="w-full px-3 py-2 border rounded" rows="4" placeholder="Describe the character you want on a t-shirt"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">
+                        Submit Request
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="bg-blue-800 text-white py-6 mt-12">
+            <div class="container mx-auto text-center">
+                <p>© 2024 CharacTees. All Rights Reserved.</p>
+                <div class="mt-4 space-x-4">
+                    <a href="#" class="hover:text-blue-200">Privacy Policy</a>
+                    <a href="#" class="hover:text-blue-200">Terms of Service</a>
+                    <a href="#" class="hover:text-blue-200">Contact Us</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
