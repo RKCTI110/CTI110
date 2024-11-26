@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to CharacTees!!!</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background: #000000;
+            color: #00FF00;
+            font-family: "Comic Sans MS", cursive;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            background: #000080;
+            border: 5px outset #C0C0C0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            border: 2px solid #FF00FF;
+            padding: 10px;
+        }
+        .blink {
+            animation: blinker 1s linear infinite;
+        }
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
+        a {
+            color: #FF0;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #F00;
+            text-decoration: underline;
+        }
+        .counter {
+            font-family: "Courier New", monospace;
+            background: #FFF;
+            color: #000;
+            padding: 2px 5px;
+            border: 2px inset #808080;
+        }
+        marquee {
+            background: #FF0000;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <marquee scrollamount="5"><b>*** WELCOME TO CHARACTEES - YOUR #1 SOURCE FOR AWESOME T-SHIRTS! ***</b></marquee>
+    
+    <div class="container">
+        <table>
+            <tr>
+                <td colspan="2">
+                    <img src="/api/placeholder/100/100" alt="Star" align="left">
+                    <font size="7" color="#FF0000">Welcome to CharacTees!</font>
+                    <img src="/api/placeholder/100/100" alt="Star" align="right">
+                </td>
+            </tr>
+            <tr>
+                <td width="200" bgcolor="#000000" valign="top">
+                    <font color="#00FF00">
+                        <p><b>[ Navigation ]</b></p>
+                        <p><a href="/">Home</a></p>
+                        <p><a href="/products.html">Products</a></p>
+                        <p><a href="/request.html">Custom Request</a></p>
+                    </font>
+                </td>
+                <td bgcolor="#000040">
+                    <p><blink>HOT NEW DESIGNS ADDED WEEKLY!!!</blink></p>
+                    <p><font color="#FFFFFF">Get your AWESOME character t-shirts here!</font></p>
+                    <img src="/api/placeholder/200/200" alt="New T-Shirt">
+                    <p><font color="#FFFF00" size="5">BEST SELLERS:</font></p>
+                    <ul align="left">
+                        <li><font color="#FFFFFF">Superhero Squad - $24.99</font></li>
+                        <li><font color="#FFFFFF">Anime Heroes - $26.99</font></li>
+                        <li><font color="#FFFFFF">Cartoon Classics - $22.99</font></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" bgcolor="#400040">
+                    <img src="/api/placeholder/50/50" alt="Under Construction">
+                    <font color="#FFFF00">SITE UNDER CONSTRUCTION!</font>
+                    <img src="/api/placeholder/50/50" alt="Under Construction">
+                    <p><font size="2" color="#FFFFFF">© 1999 CharacTees. Best viewed in Netscape Navigator 4.0 at 800x600.</font></p>
+                    <p><font color="#FFFFFF">Visitors:</font> <span class="counter">00001337</span></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <marquee direction="right" scrollamount="3"><b>*** FREE SHIPPING ON ORDERS OVER $50! ***</b></marquee>
+</body>
+</html>

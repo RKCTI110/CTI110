@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CHARACTEES TERMINAL INTERFACE</title>
+    <style>
+        body {
+            background: #000;
+            color: #33ff33;
+            font-family: "Courier New", monospace;
+            margin: 40px;
+            line-height: 1.5;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .cursor {
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0; }
+        }
+        .screen {
+            border: 1px solid #33ff33;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .input-line::before {
+            content: ">";
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="screen">
+<pre>
+*******************************************
+*        CHARACTEES ORDERING SYSTEM      *
+*         TERMINAL VERSION 1.77          *
+*******************************************
+
+SYSTEM STATUS: ONLINE
+LAST UPDATE: 11-26-1977
+AVAILABLE MEMORY: 64K
+
+PLEASE SELECT OPTION:
+
+1. VIEW INVENTORY
+2. PLACE ORDER
+3. CUSTOM REQUEST
+4. SYSTEM STATUS
+5. EXIT
+
+--------------------------------
+CURRENT INVENTORY:
+--------------------------------
+ITEM-001: SUPERHERO DESIGN
+         UNITS: 127
+         PRICE: $24.99
+         STATUS: IN STOCK
+
+ITEM-002: ANIME HEROES
+         UNITS: 89
+         PRICE: $26.99
+         STATUS: LOW STOCK
+
+ITEM-003: CARTOON DESIGN
+         UNITS: 156
+         PRICE: $22.99
+         STATUS: IN STOCK
+
+--------------------------------
+SYSTEM COMMANDS:
+--------------------------------
+ORDER  : PLACE NEW ORDER
+VIEW   : VIEW ITEM DETAILS
+CUSTOM : REQUEST CUSTOM DESIGN
+EXIT   : TERMINATE SESSION
+
+<span class="input-line">ENTER COMMAND:</span><span class="cursor">█</span>
+</pre>
+</div>
+</body>
+</html>
